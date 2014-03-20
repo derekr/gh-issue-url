@@ -22,7 +22,7 @@ var gh = require('gh-issue-url')({
         repo: 'gh-issue-url' // target repo
     });
 
-gh(); // https://github.com/derekr/gh-issue-url
+gh(); // https://github.com/derekr/gh-issue-url/issues/new
 
 gh({
     title: 'Something broke',
@@ -41,7 +41,7 @@ gh({
     body: 'You should fix it',
     user: 'notme'
 });
-// https://github.com/notme/gh-issue-url?title=Something%20broke&body=Your%20should%20fix%20it
+// https://github.com/notme/gh-issue-url/issues/new?title=Something%20broke&body=Your%20should%20fix%20it
 ```
 
 Would create a link to `notme`'s fork.
