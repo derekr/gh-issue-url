@@ -1,0 +1,34 @@
+{
+  "name": "gh-issue-url",
+  "version": "0.0.1",
+  "description": "Create links for pre-populating new issue forms on github.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/derekr/gh-issue-url"
+  },
+  "keywords": [
+    "github",
+    "gh",
+    "issue",
+    "issues",
+    "gh-issues",
+    "feedback",
+    "bug",
+    "bug",
+    "reporting",
+    "reporting"
+  ],
+  "author": "Derek Reynolds <drk@diy.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekr/gh-issue-url/issues"
+  },
+  "homepage": "https://github.com/derekr/gh-issue-url",
+  "devDependencies": {
+    "tap": "^0.4.8"
+  }
+}
