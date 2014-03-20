@@ -1,6 +1,6 @@
 {
   "name": "gh-issue-url",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create links for pre-populating new issue forms on github.",
   "main": "index.js",
   "scripts": {
